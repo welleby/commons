@@ -6,7 +6,7 @@ public class DayOfWeekHelper {
 	public static DayOfWeek getDay(String day) {
 		if(day.trim().equalsIgnoreCase("Måndag"))
 			return DayOfWeek.MONDAY;
-		else if(day.trim().equalsIgnoreCase("Tidsag"))
+		else if(day.trim().equalsIgnoreCase("Tisdag"))
 			return DayOfWeek.TUESDAY;
 		else if(day.trim().equalsIgnoreCase("Onsdag"))
 			return DayOfWeek.WEDNESDAY;
